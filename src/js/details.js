@@ -8,7 +8,7 @@ import {
   displayNumberOfItemsAddedInCart,
   addWithEnter,
   plusAndMinusBtn,
-} from "../js/utils";
+} from "../js/utils.js";
 
 const searchParamstring = window.location.search;
 const searchParams = new URLSearchParams(searchParamstring);

@@ -6,7 +6,7 @@ import {
   showLoader,
   hideLoader,
   displayNumberOfItemsAddedInCart,
-} from "./utils";
+} from "../js/utils.js";
 
 let allProducts;
 let productScheme = {

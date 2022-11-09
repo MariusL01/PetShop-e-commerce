@@ -6,7 +6,7 @@ import {
   showLoader,
   hideLoader,
   displayNumberOfItemsAddedInCart,
-} from "../src/js/utils";
+} from "./src/js/utils.js";
 
 const createCardFromProduct = (product) => {
   return `<div class="card">

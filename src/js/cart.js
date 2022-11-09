@@ -1,6 +1,6 @@
 "use strict";
 
-import { displayNumberOfItemsAddedInCart, addWithEnter } from "./utils";
+import { displayNumberOfItemsAddedInCart, addWithEnter } from "../js/utils.js";
 
 let cartProducts = JSON.parse(localStorage.getItem("productsCart"));
 
