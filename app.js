@@ -10,10 +10,10 @@ import {
 
 const createCardFromProduct = (product) => {
   return `<div class="card">
-  <a href="../src/pages/details.html?product_id=${product.id}">
+  <a href="./src/pages/details.html?product_id=${product.id}">
     <img src="${product.imgURL}" />
   </a>
-  <a href="../src/pages/details.html?product_id=${product.id}">
+  <a href="./src/pages/details.html?product_id=${product.id}">
     <h4>${product.name}</h4>
   </a>
   <p>$${product.price}</p>
