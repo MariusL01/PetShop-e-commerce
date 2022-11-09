@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a id="logo" href="../../index.html">
+            <img src="../../resources/logo.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="search" id="search">
+          <input type="text" placeholder="Search..." id="search" />
+          <a class="searchBtn" href="search.html">
+            <i class="fas fa-search centerAbs"></i>
+          </a>
+        </div>
+        <div class="navbar-right-side disable-selection-of-white-spaces">
+          <div>
+            <button class="btn">
+              <span id="total-items-navbar"></span>
+              <a href="../pages/cart.html">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span id="under-label">Cart</span>
+              </a>
+            </button>
+          </div>
+          <div>
+            <button class="btn">
+              <a href="../pages/admin.html"
+                ><i class="fa-solid fa-user"></i>
+                <span id="under-label">Admin</span>
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="admin-container">
+        <div class="header">
+          <h3>Products management</h3>
+          <button id="addBtn" class="cancel-and-the-other-btn">
+            <i class="fa-sharp fa-solid fa-plus"> </i>Add new product
+          </button>
+        </div>
+        <div class="all-products"></div>
+      </div>
+      <div class="tableForm"></div>
+
+      <div class="loader"></div>
+      <div class="footer">
+        <p>Copyrigth &copy;2022 All rigths reserved</p>
+        <p>Webiste created by Marius</p>
+      </div>
+    </div>
+    <script type="module" src="../js/admin.js"></script>
+  </body>
+</html>
